@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolo</title>
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--Box icon-->
+    <script src="https://kit.fontawesome.com/130a5bacf7.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Marlon</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Proyectos</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/marlon.png" alt="">
+            </div>
+            <h1>Marlon Mogollon</h1>
+            <h2>Ingeniero de Software - Diseador/Programador Website</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/marlonalejandro.mogollontorres"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/marlonmogollont/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/Mein-Hack"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p>
+                <span>Hola, soy Marlon Mogollon.</span>
+                Soy un joven estudiante de Ingeniería de Sistemas, Técnico en
+                Computación, Técnico en Electricidad, Diseñador y Programador de Páginas Web y pequeño Inversor Cripto.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            19-11-2002
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +58 (414)-677-3569
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            marlonmogollon13@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Urb. Los Samanes /Edo. Zulia /Venezuela
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        
+                        <div class="interes">
+                            <i class="fa-solid fa-code"></i>
+                            <span>CODING</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-robot"></i>
+                            <span>ROBOTICA</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="doc/Curriculum Marlon Mogollon.pdf" download="CurriculumCV_Marlon_Mogollon"> 
+                <button>
+                    Descargar CV<i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>69%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ofimatica</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Busbootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>82%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Informatica</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Electricidad Basica</h4>
+                        <span class="casa">Instituto Nacional de Capacitación y Educación Socialista</span>
+                        <span class="fecha">2016 - 2016</span>
+                        <p>Curso de Electricidad Basica, ralizado a mediados del año 2016, El curso mostraba
+                            y ponia en practica los conocimientos basicos de la electricidad, como podria ser:
+                            La realizacion de "un Triway" (un mismo dispositivo conectado a dos encendedores o 
+                            swich, ejemplo: un bombilla conectada al apagador de la sala y de una habitacion).</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Informatica</h4>
+                        <span class="casa">Mastermind</span>
+                        <span class="fecha">2017 - 2017</span>
+                        <p>Curso de Informatica medium, realizado a en Enero del año 2017 y terminado
+                            a finales del mismo. El curso, mostraba caracteristicas y herramientas 
+                            mas avanadas a la Informatica basica que todos conocemos, dicho curso nos ayudaba a
+                            usar y comprender herramientas no usadas en la vida cotidiana, como podrian ser: CMD
+                            o (Consola de Comandos de Windows) o la desfragmentacion de discos HDD o memorias SSD.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingenieria de Sistemas Informatics</h4>
+                        <span class="casa">Universidad Nacional Experimental Politecnica de la Fuerza Armada Nacional Bolivariana</span>
+                        <span class="fecha">2019 - en curso</span>
+                        <p>Carrera de Ingenieria de Sistemas Informaticos, en curso desde Octubre del año 2019. Dicha
+                            carrera consta en explicar y enseñar al alumno (o joven Ingeniero y Programador) la gran
+                            diversidad de lenguajes de programacion, dando a conocer lenguajes de programacion conocidos com podrian ser: C, C++, C#,
+                            Java, Php, HTML, CSS, Javascript o TypeScrip.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Tecnico / Ayudante de Oficina</h4>
+                        <span class="casa">Lp Fumigaciones Industriales</span>
+                        <span class="fecha">2017 - 2021</span>
+                        <p>Servicio tecnico y Ayudante de Oficina, En servicio Tecnico reparaba, revisaba y daba un respectivo mantenimiento
+                            mensual a todos los servidores y PCs de compañeros de oficina, realizaba chequeo de proteccion de seguridad
+                            una vez por semana (revisando que no existiera ningun Malware dentro de la base de datos del servidor). Como Ayudante 
+                            de Oficina ayudaba en el conteo de mercancia, manejo y facturacion de contratos,
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">(Sin compañia, trabajo FREELANCE)</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/search.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>HTML, CSS, Javascript</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Menu_lateral.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>HTML, CSS, Javascript</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Tienda.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>HTML, CSS, Javascript</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/c.png" alt="">
+                    <div class="overlay">
+                        <h3>Programa por Consola</h3>
+                        <p>C++</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/codigo.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Web</h3>
+                        <p>HTML, CSS, Javascript</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <form action="">
+
+                <!-- Formulario -->
+                    <div class="col">
+                        <input type="text" name="nombre" placeholder="Tú Nombre">
+                        <input type="text" nam="telefono" placeholder="Número telefónico">
+                        <input type="text" name="email" placeholder="Dirección de correo">
+                        <input type="text" name="tema" placeholder="Tema">
+                        <textarea name="comentario" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <!-- Mapa -->
+                    <div class="col">
+                        <img src="img/mapa.jpg" alt="">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Urbanizacion Los Samanes, Av. 49H-I-66
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    Llamanos: +58 (414)-677-3569 
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Email: marlonmogollon13@gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <input type="hidden" name="_next" value="">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/marlonalejandro.mogollontorres"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/marlonmogollont/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/Mein-Hack"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/java.js"></script>
+</body>
+</html>
